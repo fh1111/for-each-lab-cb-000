@@ -12,3 +12,8 @@ function iterate(callback){
   cars.forEach(callback)
   return cars
 }
+
+function doToArray(array,callback){
+  array.forEach(callback)
+  }
+}
