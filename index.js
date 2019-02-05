@@ -10,5 +10,5 @@ function iterativeLog(array){
 function iterate(callback){
   const cars = ["Ferrari", "Mercedez", "BMW"]
   cars.forEach(callback)
-
+  return cars
 }
